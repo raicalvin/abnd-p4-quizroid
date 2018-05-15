@@ -20,7 +20,7 @@ This project was created for my Android Basics Nanodegree program with Udacity. 
 
 I decided to layout a clean and minimal UI with a bright blue and white color scheme to put the quiz-taker in a very focused mindset when using the app. The 'NEXT' and 'BACK' buttons are used to scroll to the following and prior questions, respectively.
 
-![](https://github.com/raicalvin/pictures/blob/master/pix-abnd-p4-quizroid/pic1.png) ![](https://github.com/raicalvin/pictures/blob/master/pix-abnd-p4-quizroid/pic2.png)
+![](https://github.com/raicalvin/pictures/blob/master/pix-abnd-p4-quizroid/pic1.png) ![](https://github.com/raicalvin/pictures/blob/master/pix-abnd-p4-quizroid/pic2.png) ![](https://github.com/raicalvin/pictures/blob/master/pix-abnd-p4-quizroid/pic3.png)
 
 ## User Experience
 
