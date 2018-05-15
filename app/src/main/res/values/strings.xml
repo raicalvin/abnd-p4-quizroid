@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Quizroid</string>
+
+    <string name="question_1_string">Which of the following are correct attributes for a Relative
+        Layout? Check all that apply.</string>
+
+    <string name="question_2_string">Which Android View allows you to place an image or graphic into
+        it?</string>
+
+    <string name="question_3_string">Which of the following data types can hold numerical values
+        with a decimal point?</string>
+
+    <string name="question_4_string">Which of the following superclasses does the EditText class
+        inheret from?</string>
+
+    <string name="question_5_string">What value is assigned to the variable \'result\' in the
+        following code: int result = 5 + 2 / 1 ?</string>
+
+    <string name="question_6_string">Which of the following attributes are applicable to style
+        elements? Check all that apply.</string>
+
+    <string name="question_7_string">What does the acronym \'URI\' stand for?</string>
+
+    <string name="txt_btn_back">BACK</string>
+
+    <string name="txt_btn_next">NEXT</string>
+
+</resources>
