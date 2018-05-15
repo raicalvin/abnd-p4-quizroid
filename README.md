@@ -30,19 +30,15 @@ Creating a contrasting scheme with the white and bright blue made the app format
 
 - Calvin S Rai - *Project development* - [GitHub](https://github.com/raicalvin)
 
-## Resources
-
-This section should provide information about the images, video, and media files used in this project.
-
 ## API Reference
 
-Provide a list of links to appropriate API documentation used in the project.
+References to the ScrollView component found at the Android Developers site was used in the creation of this project.
 
 - ScrollView - *ScrollView documentation from Android Developers site* - [Documentation](https://developer.android.com/reference/android/widget/ScrollView)
 
 ## Contact
 
-My name is Calvin! :]
+Hi, I'm Calvin! :]
 
 Find my GitHub profile here: [GitHub](https://github.com/raicalvin)
 
