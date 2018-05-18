@@ -62,7 +62,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="android:layout_alignParentTop"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -72,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="android:layout_notAlignParentTop"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -82,7 +82,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="android:layout_width"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -92,7 +92,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="android:wrong_answer"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -247,7 +247,7 @@
                             android:layout_height="wrap_content"
                             android:buttonTint="#FEFFFE"
                             android:fontFamily="@font/comfortaa_bold"
-                            android:paddingLeft="16sp"
+                            android:paddingLeft="16dp"
                             android:text="int"
                             android:textColor="#FEFFFE" />
 
@@ -257,7 +257,7 @@
                             android:layout_height="wrap_content"
                             android:buttonTint="#FEFFFE"
                             android:fontFamily="@font/comfortaa_bold"
-                            android:paddingLeft="16sp"
+                            android:paddingLeft="16dp"
                             android:text="boolean"
                             android:textColor="#FEFFFE" />
 
@@ -267,7 +267,7 @@
                             android:layout_height="wrap_content"
                             android:buttonTint="#FEFFFE"
                             android:fontFamily="@font/comfortaa_bold"
-                            android:paddingLeft="16sp"
+                            android:paddingLeft="16dp"
                             android:text="string"
                             android:textColor="#FEFFFE" />
 
@@ -277,7 +277,7 @@
                             android:layout_height="wrap_content"
                             android:buttonTint="#FEFFFE"
                             android:fontFamily="@font/comfortaa_bold"
-                            android:paddingLeft="16sp"
+                            android:paddingLeft="16dp"
                             android:text="double"
                             android:textColor="#FEFFFE" />
 
@@ -360,7 +360,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="android.widget.Ancestor"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -370,7 +370,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="android.widget.ImageView"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -380,7 +380,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="android.widget.TextView"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -390,7 +390,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="android.view.View"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -552,7 +552,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="capitalize"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -562,7 +562,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="typeface"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -572,7 +572,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="textColor"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -582,7 +582,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/comfortaa_bold"
-                        android:paddingLeft="16sp"
+                        android:paddingLeft="16dp"
                         android:text="textSize"
                         android:textColor="#FEFFFE"
                         app:buttonTint="#FEFFFE" />
@@ -669,7 +669,7 @@
                             android:layout_height="wrap_content"
                             android:buttonTint="#FEFFFE"
                             android:fontFamily="@font/comfortaa_bold"
-                            android:paddingLeft="16sp"
+                            android:paddingLeft="16dp"
                             android:text="Unity Resource Intent"
                             android:textColor="#FEFFFE" />
 
@@ -679,7 +679,7 @@
                             android:layout_height="wrap_content"
                             android:buttonTint="#FEFFFE"
                             android:fontFamily="@font/comfortaa_bold"
-                            android:paddingLeft="16sp"
+                            android:paddingLeft="16dp"
                             android:text="Uniform Resource Identifier"
                             android:textColor="#FEFFFE" />
 
@@ -689,7 +689,7 @@
                             android:layout_height="wrap_content"
                             android:buttonTint="#FEFFFE"
                             android:fontFamily="@font/comfortaa_bold"
-                            android:paddingLeft="16sp"
+                            android:paddingLeft="16dp"
                             android:text="Uniform Relay Indentation"
                             android:textColor="#FEFFFE" />
 
@@ -699,7 +699,7 @@
                             android:layout_height="wrap_content"
                             android:buttonTint="#FEFFFE"
                             android:fontFamily="@font/comfortaa_bold"
-                            android:paddingLeft="16sp"
+                            android:paddingLeft="16dp"
                             android:text="Universal Resource Identifier"
                             android:textColor="#FEFFFE" />
 
