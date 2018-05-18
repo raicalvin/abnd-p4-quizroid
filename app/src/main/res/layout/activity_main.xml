@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-
+    
     <ScrollView
         android:id="@+id/main_scroll_view"
         android:layout_width="match_parent"
@@ -21,7 +20,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
             <!-- QUESTION 1 -->
 
@@ -104,7 +102,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp">
 
-
                     <Button
                         android:id="@+id/btn_q1_next"
                         android:layout_width="wrap_content"
@@ -121,7 +118,6 @@
                 </RelativeLayout>
 
             </LinearLayout>
-
 
             <!-- QUESTION 2 -->
 
@@ -201,7 +197,6 @@
                 </RelativeLayout>
 
             </LinearLayout>
-
 
             <!-- Question 3 -->
 
@@ -320,7 +315,6 @@
 
             </LinearLayout>
 
-
             <!-- Question 4 -->
 
             <LinearLayout
@@ -432,7 +426,6 @@
 
             </LinearLayout>
 
-
             <!-- Question 5 -->
 
             <LinearLayout
@@ -511,7 +504,6 @@
                 </RelativeLayout>
 
             </LinearLayout>
-
 
             <!-- Question 6 -->
 
@@ -623,7 +615,6 @@
                 </RelativeLayout>
 
             </LinearLayout>
-            -->
 
             <!-- Question 7 -->
 
@@ -725,7 +716,6 @@
                         android:textColor="#3999D8"
                         android:textSize="12sp" />
 
-
                 </RelativeLayout>
 
             </LinearLayout>
@@ -742,14 +732,14 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/result_textview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Click \'Submit\' to see results..."
-                android:textSize="16sp"
                 android:layout_margin="16dp"
+                android:fontFamily="@font/comfortaa_bold"
                 android:paddingLeft="16dp"
-                android:id="@+id/result_textview"
-                android:fontFamily="@font/comfortaa_bold"/>
+                android:text="Click \'Submit\' to see results..."
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/btn_clear"
@@ -762,9 +752,7 @@
                 android:textColor="#FEFFFE"
                 android:textSize="16sp" />
 
-
         </LinearLayout>
-
 
     </ScrollView>
 
@@ -778,8 +766,5 @@
         android:text="Android Quiz App"
         android:textColor="#FEFFFE"
         android:textSize="16sp" />
-
-
-
 
 </RelativeLayout>
