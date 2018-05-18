@@ -1,27 +1,18 @@
 package com.example.simranrai.quizroid;
 
 import android.animation.ObjectAnimator;
-import android.content.Context;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
-import android.util.DisplayMetrics;
-import android.util.Log;
-import android.view.Display;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -286,19 +277,29 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // This method will take in the question number and format a String with Green text if the answer was correct
+    /**
+     * This method will take in the question number and format a String with Green text if the answer was correct
+     *
+     * @param qNum the question number
+     * @return formatted string with number of correct answers highlighted in green
+     */
     public SpannableString setCorrectAnswerString(int qNum) {
         String input = "\nQuestion " + qNum + " Correct!";
         SpannableString ansStringCorrect = new SpannableString(input);
         ansStringCorrect.setSpan(new ForegroundColorSpan(Color.GREEN), input.length() - 8, input.length(), 0);
-        return  ansStringCorrect;
+        return ansStringCorrect;
     }
 
-    // This method will take in the question number and format a String with Red text if the answer was incorrect
+    /**
+     * This method will take in the question number and format a String with Red text if the answer was incorrect
+     *
+     * @param qNum the question number
+     * @return formatted string with number of incorrect answers highlighted in red
+     */
     public SpannableString setIncorrectAnswerString(int qNum) {
         String input = "\nQuestion " + qNum + " Incorrect.";
         SpannableString ansStringIncorrect = new SpannableString(input);
         ansStringIncorrect.setSpan(new ForegroundColorSpan(Color.RED), input.length() - 10, input.length(), 0);
-        return  ansStringIncorrect;
+        return ansStringIncorrect;
     }
 }
