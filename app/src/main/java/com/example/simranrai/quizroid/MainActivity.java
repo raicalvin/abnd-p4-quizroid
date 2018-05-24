@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -189,6 +190,9 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
+                // Create a variable to store number of correct answers
+                int numOfCorrectAnswers = 0;
+
                 // Clear the TextView of any text
                 resultTextView.setText("");
                 resultTextView.append("QUIZ RESULTS\n");
@@ -197,6 +201,7 @@ public class MainActivity extends AppCompatActivity {
                 // Question 1 Check
                 if (q1Answer.isChecked() && !q2Answer.isChecked() && q3Answer.isChecked() && !q4Answer.isChecked()) {
                     resultTextView.append(setCorrectAnswerString(1));
+                    numOfCorrectAnswers++; // increment correct answers by 1
                 } else {
                     resultTextView.append(setIncorrectAnswerString(1));
                 }
@@ -206,6 +211,7 @@ public class MainActivity extends AppCompatActivity {
                 String answer2Input = ans2EditText.getText().toString().toLowerCase();
                 if (answer2Input.equals("imageview")) {
                     resultTextView.append(setCorrectAnswerString(2));
+                    numOfCorrectAnswers++; // increment correct answers by 1
                 } else {
                     resultTextView.append(setIncorrectAnswerString(2));
 
@@ -215,6 +221,7 @@ public class MainActivity extends AppCompatActivity {
                 RadioButton q3RadioButtonAnswer4 = (RadioButton) findViewById(R.id.answer4_q3_radbtn);
                 if (q3RadioButtonAnswer4.isChecked()) {
                     resultTextView.append(setCorrectAnswerString(3));
+                    numOfCorrectAnswers++; // increment correct answers by 1
                 } else {
                     resultTextView.append(setIncorrectAnswerString(3));
                 }
@@ -226,6 +233,7 @@ public class MainActivity extends AppCompatActivity {
                 CheckBox q4Answer4 = findViewById(R.id.answer4_q4_chkbox);
                 if (!q4Answer1.isChecked() && q4Answer2.isChecked() && q4Answer3.isChecked() && q4Answer4.isChecked()) {
                     resultTextView.append(setCorrectAnswerString(4));
+                    numOfCorrectAnswers++; // increment correct answers by 1
                 } else {
                     resultTextView.append(setIncorrectAnswerString(4));
                 }
@@ -235,6 +243,7 @@ public class MainActivity extends AppCompatActivity {
                 String answer5Input = ans5EditText.getText().toString().toLowerCase();
                 if (answer5Input.equals("7")) {
                     resultTextView.append(setCorrectAnswerString(5));
+                    numOfCorrectAnswers++; // increment correct answers by 1
                 } else {
                     resultTextView.append(setIncorrectAnswerString(5));
 
@@ -247,6 +256,7 @@ public class MainActivity extends AppCompatActivity {
                 CheckBox q6Answer4 = findViewById(R.id.answer4_q6_chkbox);
                 if (q6Answer1.isChecked() && q6Answer2.isChecked() && q6Answer3.isChecked() && q6Answer4.isChecked()) {
                     resultTextView.append(setCorrectAnswerString(6));
+                    numOfCorrectAnswers++; // increment correct answers by 1
                 } else {
                     resultTextView.append(setIncorrectAnswerString(6));
                 }
@@ -255,12 +265,17 @@ public class MainActivity extends AppCompatActivity {
                 RadioButton q7RadioButtonAnswer2 = (RadioButton) findViewById(R.id.answer2_q7_radbtn);
                 if (q7RadioButtonAnswer2.isChecked()) {
                     resultTextView.append(setCorrectAnswerString(7));
+                    numOfCorrectAnswers++; // increment correct answers by 1
                 } else {
                     resultTextView.append(setIncorrectAnswerString(7));
                 }
 
                 // Scroll down to the TextView result box
                 ObjectAnimator.ofInt(sv, "scrollY", (int) resultTextView.getY() - spaceAboveScrolledView).setDuration(500).start();
+
+                // Create a toast to display the final score
+                Toast.makeText(getApplicationContext(), "You got " + numOfCorrectAnswers + " answers correct out of 7.",
+                        Toast.LENGTH_SHORT).show();
 
             }
         });
